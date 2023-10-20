@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* NAV-BAR */
+
+nav {
+    width: 100%;
+    background-color: #0084fd;
+    color: white;
+}
+
+.content-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.logo{
+    padding-left: 1rem;
+}
+
+.menu{
+    padding-right: 1rem;
+}
+
+
+/* JUMBO */
+
+.jumbo{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+
+.row-header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.card-header-big{
+    width: 100%;
+    height: 400px;
+    background-color: #b5ddff;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.card-header{
+    width: 100%;
+    height: 200px;
+    background-color: #b5ddff;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+
+
+/* MAIN */
+
+
+/* HEADER-MAIN */
+
+.header-main{
+    width: 100%;
+    background-color: #9792e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column-left-header-main{
+    height: 400px;
+    background-color: green;
+    margin: 1.5rem;
+}
+
+.column-right-header-main{
+    height: 400px;
+    background-color: green;
+    margin: 1.5rem;
+}
+
+
+/* MAIN-MAIN */
+
+.main-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-main-main{
+    height: 200px;
+}
+
+.card-main-main{
+    height: 250px;
+    background-color: #9792e4;
+    margin: 1.5rem;
+    border-radius: 30px;
+}
+
+.main-main:last-child{
+    margin-bottom: 4rem;
+}
+
+
+/* FOOTER-MAIN */
+
+.footer-main{
+    width: 100%;
+    background-color: #9792e4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer-main{
+    height: 220px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 1.5rem;
+}
+
+
+
+/* FOOTER */
+
+
+/* HEADER-FOOTER */
+
+.header-footer{
+    width: 100%;
+}
+
+.main-footer{
+    width: 100%;
+    background-color: #9792e4;
+    color: white;
+}
+
+.footer-footer{
+    width: 100%;
+    background-color: #333333;
+    color: white;
+}
