@@ -49,6 +49,30 @@ nav {
     align-items: center;
 }
 
+.container-content-nav{
+    width: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    display: none;
+}
+
+.btn-get-started{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    margin-right: 1rem;
+    display: none;
+}
+
+.h3-nav{
+     margin-right: 2rem;
+     display: none;
+}
+
 
 /* JUMBO */
 
@@ -171,6 +195,10 @@ nav {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.container-content-main{
+    width: 100%;
 }
 
 .column-left-header-main{
@@ -467,6 +495,14 @@ footer{
     padding-top: 4rem;
 }
 
+.container-contant-header-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .container-column-left-header-footer{
     width: 100%;
 }
@@ -630,7 +666,6 @@ footer{
     }
 
     .card-header-big{
-        width: calc(( 100% / 3 ) * 2);
         background-color: #b5ddff;
         /* margin: 1rem; */
         border-radius: 20px;
@@ -683,6 +718,13 @@ footer{
         align-items: center;
     }
 
+    .container-content-main-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .card-main-main{
         width: 70%;
         background-color: #9792e4;
@@ -693,6 +735,11 @@ footer{
         width: 100%;
         background-color: #9792e4;
         color: white;
+        text-align: center;
+    }
+
+    .container-content-footer-main{
+        width: 100%;
         text-align: center;
     }
 
@@ -739,9 +786,84 @@ footer{
 }
 
 @media screen and (min-width: 1160px) {
+    .container-menu-icon{
+        width: 10%;
+        display: none;
+    }
+
+    .content-nav{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+
+    .container-content-nav{
+        width: 50%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .btn-get-started{
+        width: 100px;
+        height: 40px;
+        background-color: white;
+        border-radius: 30px;
+        border: 1px solid white;
+        margin-right: 1rem;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .h3-nav{
+         margin-right: 2rem;
+         display: inline-block;
+         font-weight: 400;
+    }
+
+    .jumbo{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.5rem;
+    }
+
+    .card-header-big{
+        background-color: #b5ddff;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-left: 2rem;
+    }
+
+    .content-card-header-big-left{
+        width: 60%;
+    }
+
+    .content-card-header-big-right{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4rem;
+    }
+
     .header-main{
         width: 100%;
         background-color: #9792e4;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-content-main{
+        width: 70%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -801,6 +923,13 @@ footer{
         align-items: center;
     }
 
+    .container-content-main-main{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .card-main-main{
         width: 60%;
         background-color: #9792e4;
@@ -822,5 +951,25 @@ footer{
         margin: .7rem 0;
         background-color: #ffffff;
         border-radius: 15px;
+    }
+
+    .container-content-footer-main{
+        width: 70%;
+        text-align: center;
+    }
+
+    .header-footer{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        padding-top: 4rem;
+    }
+
+    .container-contant-header-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 }
